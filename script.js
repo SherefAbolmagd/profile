@@ -129,7 +129,7 @@ const resume = {
       achievements: []
     }
   ],
-  photo: 'https://media.licdn.com/dms/image/D5603AQH5APoJTSgC4A/profile-displayphoto-shrink_800_800/0/1678081172430?e=1685577600&v=beta&t=RdFfRbvF9XtYzlFFA2Pn-wCpzLaoWfBB9io2reEd8Rw',
+  photo: 'https://media.licdn.com/dms/image/D5603AQH5APoJTSgC4A/profile-displayphoto-shrink_800_800/0/1678081172430?e=1695254400&v=beta&t=2Va_JasW3aH1TMSb-KpaoNMQJNi8JMBDSON2v4vpTr4',
 }
 
 const formatResume = (r) => ({
