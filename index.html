@@ -175,7 +175,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-8">
+                    <div class="col col-9">
                         <animatable-component autoplay animation="fade-in-right" easing="ease-in-out" duration="1200">
                             <div class="row bullet">
                                 <div class="col-auto pt-2">
@@ -212,9 +212,13 @@
                                 <p class="text-uppercase fw-bold position-relative">
                                     {{ employment.jobTitle }}
                                     <span>&nbsp;|&nbsp;{{ employment.startDate }} - {{ employment.endDate }}</span>
+                                    <span>&nbsp;|&nbsp; {{ employment.type }}</span>
                                 </p>
-                                <p class="text-lowercase fst-italic fw-bold">
+                                <p class="text-lowercase fw-bold">
                                     {{ employment.employer }}, {{ employment.city }}
+                                </p>
+                                <p class="fw-bold">
+                                    Technology Used: [{{ employment.technologyStack }}]
                                 </p>
                                 <p class="mb-0" v-for="achievement in employment.achievements">
                                     • {{ achievement }}
